@@ -1,0 +1,69 @@
+filepath,true_idx,true_label,pred_idx,pred_label,confidence
+clean_train_temp\val\Abraham Ganda Napitu\IMG_4951 - Abraham Ganda Napitu.jpeg,0,Abraham Ganda Napitu,13,Dimas Azi Rajab Aizar,0.14571851
+clean_train_temp\val\Abu Bakar Siddiq Siregar\4 - I22I4OI64_ ABU BAKAR SIDDIQ SIREGAR.jpeg,1,Abu Bakar Siddiq Siregar,30,Garland Wijaya,0.09319718
+clean_train_temp\val\Ahmad Faqih Hasani\Ahmad Faqih Hasani_2.jpg,2,Ahmad Faqih Hasani,25,Ferdana Al Hakim,0.09075826
+clean_train_temp\val\Aldi Sanjaya\IMG_3149 - ALDI SANJAYA.jpeg,3,Aldi Sanjaya,25,Ferdana Al Hakim,0.25045374
+clean_train_temp\val\Alfajar\IMG_20251103_091232 - I22I40I22 - ALFAJAR.jpg,4,Alfajar,19,Elsa Elisa Yohana Sianturi,0.14436346
+clean_train_temp\val\Alief Fathur Rahman\2025-11-01 12.12.35 1 - Alief Fathur Rahman.jpg,5,Alief Fathur Rahman,38,Joyapul Hanscalvin Panjaitan,0.09167387
+clean_train_temp\val\Arkan Hariz Chandrawinata Liem\Arkan_1 - ARKAN HARIZ CHANDRAWINATA LIEM.jpg,6,Arkan Hariz Chandrawinata Liem,24,Femmy Aprillia Putri,0.15381427
+clean_train_temp\val\Bayu Ega Ferdana\IMG-20251124-WA0018 - Bayu Ega Ferdana.jpg,7,Bayu Ega Ferdana,19,Elsa Elisa Yohana Sianturi,0.15169579
+clean_train_temp\val\Bayu Prameswara Haris\BayuPrameswaraHaris_3 - Bayu Prameswara Haris.jpeg,8,Bayu Prameswara Haris,25,Ferdana Al Hakim,0.15929903
+clean_train_temp\val\Bezalel Samuel Manik\Bez4 - Bezalel Manik.jpeg,9,Bezalel Samuel Manik,25,Ferdana Al Hakim,0.09814259
+clean_train_temp\val\Bintang Fikri Fauzan\Bintang Fikri Fauzan_3.jpg,10,Bintang Fikri Fauzan,24,Femmy Aprillia Putri,0.13872747
+clean_train_temp\val\Boy Sandro Sigiro\Boy Sandro Sigiro_3.jpg,11,Boy Sandro Sigiro,25,Ferdana Al Hakim,0.14080289
+clean_train_temp\val\Desty Ananta Purba\IMG-20250720-WA0105(1) - DESTY ANANTA PURBA.jpg,12,Desty Ananta Purba,13,Dimas Azi Rajab Aizar,0.12240769
+clean_train_temp\val\Dimas Azi Rajab Aizar\Screenshot_20251124-191228 - I2II4OI35_DIMAS.jpg,13,Dimas Azi Rajab Aizar,24,Femmy Aprillia Putri,0.15775022
+clean_train_temp\val\Dito Rifki Irawan\Dito Rifki Irawan_3.jpg,14,Dito Rifki Irawan,4,Alfajar,0.07613898
+clean_train_temp\val\Dwi Arthur Revangga\Dwi Arthur Revangga (2) - Dwi Arthur Revangga.jpg,15,Dwi Arthur Revangga,25,Ferdana Al Hakim,0.12182647
+clean_train_temp\val\Dyo Dwi Carol Bukit\WhatsApp Image 2025-11-24 at 18.52.53 - 145_Dyo Dwi Carol Bukit.jpeg,16,Dyo Dwi Carol Bukit,19,Elsa Elisa Yohana Sianturi,0.18464561
+clean_train_temp\val\Eden Wijaya\IMG20251124220546 - EDEN WIJAYA.jpg,17,Eden Wijaya,25,Ferdana Al Hakim,0.1720083
+clean_train_temp\val\Eichal Elphindo Ginting\Foto Eichal 2 - Eichal Elphindo Ginting.jpeg,18,Eichal Elphindo Ginting,25,Ferdana Al Hakim,0.14126724
+clean_train_temp\val\Elsa Elisa Yohana Sianturi\Elsa Elisa Yohana Sianturi_4.jpg,19,Elsa Elisa Yohana Sianturi,1,Abu Bakar Siddiq Siregar,0.12181093
+clean_train_temp\val\Fajrul Ramadhana Aqsa\1 - Fajrul Ramadhana Aqsa.jpg,20,Fajrul Ramadhana Aqsa,13,Dimas Azi Rajab Aizar,0.16326709
+clean_train_temp\val\Falih Dzakwan Zuhdi\Falih Dzakwan Zuhdi_1.jpg,21,Falih Dzakwan Zuhdi,25,Ferdana Al Hakim,0.08425089
+clean_train_temp\val\Fathan Andi Kartagama\20251124_192704 - FATHAN KARTAGAMA.jpg,22,Fathan Andi Kartagama,19,Elsa Elisa Yohana Sianturi,0.08867461
+clean_train_temp\val\Fayyadh Abdillah\IMG_20251124_191751 - Fayyadh Abdillah.jpg,23,Fayyadh Abdillah,25,Ferdana Al Hakim,0.061500262
+clean_train_temp\val\Femmy Aprillia Putri\20250925_090929 - FEMMY APRILLIA.jpg,24,Femmy Aprillia Putri,13,Dimas Azi Rajab Aizar,0.3323297
+clean_train_temp\val\Ferdana Al Hakim\IMG_3800 - Ferdana Al-Hakim.jpeg,25,Ferdana Al Hakim,17,Eden Wijaya,0.056601282
+clean_train_temp\val\Festus Mikhael\IMG_20250824_072604 - FESTUS MIKHAEL.jpg,26,Festus Mikhael,19,Elsa Elisa Yohana Sianturi,0.11304368
+clean_train_temp\val\Fiqri Aldiansyah\IMG_0520 - 152 - FIQRI.jpeg,27,Fiqri Aldiansyah,27,Fiqri Aldiansyah,0.14146559
+clean_train_temp\val\Freddy Harahap\Freddy Harahap Foto 2 - FREDDY HARAHAP.jpg,28,Freddy Harahap,19,Elsa Elisa Yohana Sianturi,0.10397435
+clean_train_temp\val\Gabriella Natalya Rumapea\IMG_20251124_183305 - I22I4OO56_Gabriella Rumapea.jpg,29,Gabriella Natalya Rumapea,39,Kayla Chika Lathisya,0.08147041
+clean_train_temp\val\Garland Wijaya\17639790752514802578180391486478 - I22I4000I_Garland Wijaya.jpg,30,Garland Wijaya,19,Elsa Elisa Yohana Sianturi,0.14487319
+clean_train_temp\val\Havidz Ridho Pratama\IMG_20251123_203848 - Havidz Ridho Pratama (160_Havidz).JPG,31,Havidz Ridho Pratama,25,Ferdana Al Hakim,0.15795653
+clean_train_temp\val\Ichsan Kuntadi Baskara\IMG_20251124_180648 - Ichsan Kuntadi Baskara.jpg,32,Ichsan Kuntadi Baskara,19,Elsa Elisa Yohana Sianturi,0.08901666
+clean_train_temp\val\Ikhsannudin Lathief\lathief_2 - 137-IKHSANNUDIN LATHIEF.jpg,33,Ikhsannudin Lathief,19,Elsa Elisa Yohana Sianturi,0.095991194
+clean_train_temp\val\JP. Rafi Radiktya Arkan. R. AZ\IMG_20251124_180220 - JP. Rafi Radiktya Arkan. R. AZ.jpg,34,JP. Rafi Radiktya Arkan. R. AZ,39,Kayla Chika Lathisya,0.11317052
+clean_train_temp\val\Joshia Fernandes Sectio Purba\1000272942 - Joshia Fernandes Sectio Purba.jpg,35,Joshia Fernandes Sectio Purba,13,Dimas Azi Rajab Aizar,0.096159406
+clean_train_temp\val\Joshua Palti Sinaga\17639758210023235490372240672195 - Joshua Palti Sinaga.jpg,36,Joshua Palti Sinaga,25,Ferdana Al Hakim,0.1523197
+clean_train_temp\val\Joy Daniella V\img1 - JOY DANIELLA.jpg,37,Joy Daniella V,19,Elsa Elisa Yohana Sianturi,0.100419305
+clean_train_temp\val\Joyapul Hanscalvin Panjaitan\Joyapul_119140157 - Joyapul.jpg,38,Joyapul Hanscalvin Panjaitan,25,Ferdana Al Hakim,0.06828725
+clean_train_temp\val\Kayla Chika Lathisya\dccd48d3-0fd7-48ef-943f-b1c5830b838e - KAYLA CHIKA LATHISYA.jpeg,39,Kayla Chika Lathisya,1,Abu Bakar Siddiq Siregar,0.16226575
+clean_train_temp\val\Kenneth Austin Wijaya\3 - Kenneth Austin.jpg,40,Kenneth Austin Wijaya,19,Elsa Elisa Yohana Sianturi,0.108427756
+clean_train_temp\val\Kevin Naufal Dany\Kevin Naufal Dany _4.jpg,41,Kevin Naufal Dany,38,Joyapul Hanscalvin Panjaitan,0.17099242
+clean_train_temp\val\Lois Novel E Gurning\Foto saya 3x4 - LOIS NOVEL E. GURNING.jpg,42,Lois Novel E Gurning,25,Ferdana Al Hakim,0.17615089
+clean_train_temp\val\Machzaul harmansyah\1000434254 - MACHZAUL HARMANSYAH.jpg,43,Machzaul harmansyah,30,Garland Wijaya,0.1177433
+clean_train_temp\val\Martua Kevin A.M.H.Lubis\IMG_20231013_094301_070 - MARTUA KEVIN ANDREAS MUAL H LUBIS.jpg,44,Martua Kevin A.M.H.Lubis,19,Elsa Elisa Yohana Sianturi,0.117369615
+clean_train_temp\val\Muhammad Fasya Atthoriq\IMG_2031 - MUHAMMAD FASYA ATTHORIQ.jpeg,45,Muhammad Fasya Atthoriq,21,Falih Dzakwan Zuhdi,0.11581259
+clean_train_temp\val\Muhammad Nelwan Fakhri\20251124_183233 - Muhammad Nelwan Fakhri.jpg,46,Muhammad Nelwan Fakhri,25,Ferdana Al Hakim,0.13725062
+clean_train_temp\val\Muhammad Riveldo Hermawan Putra\MuhammadRiveldo2 - Muhammad Riveldo Hermawan Putra.jpeg,47,Muhammad Riveldo Hermawan Putra,19,Elsa Elisa Yohana Sianturi,0.20468834
+clean_train_temp\val\Muhammad Zada Rizki\foto4 - 156_Muhammad Zada Rizki.jpg,48,Muhammad Zada Rizki,19,Elsa Elisa Yohana Sianturi,0.10768011
+clean_train_temp\val\Nasya Aulia Efendi\11C29E23-C85C-4FF2-8785-B284C339A87F - NASYA AULIA EFENDI.jpeg,49,Nasya Aulia Efendi,13,Dimas Azi Rajab Aizar,0.2510659
+clean_train_temp\val\Raditya Erza Farandi\20241214_170946 - Raditya Erza Farandi.jpg,50,Raditya Erza Farandi,19,Elsa Elisa Yohana Sianturi,0.15376914
+clean_train_temp\val\Rahmat Aldi Nasda\Rahmat Aldi-3 - RAHMAT ALDI NASDA.jpg,51,Rahmat Aldi Nasda,11,Boy Sandro Sigiro,0.05607321
+clean_train_temp\val\Randy Hendriyawan\57104DE5-0DB0-413A-8B97-B160FFFB920C - Randy Hendriyawan.jpeg,52,Randy Hendriyawan,25,Ferdana Al Hakim,0.08738413
+clean_train_temp\val\Rayhan Fadel Irwanto\IMG_20251124_180533 - I22I4O236_Rayhan Fadel Irwanto.jpg,53,Rayhan Fadel Irwanto,13,Dimas Azi Rajab Aizar,0.122285314
+clean_train_temp\val\Rayhan Fatih Gunawan\WIN_20251124_03_11_55_Pro - Rayhan Fatih Gunawan.jpg,54,Rayhan Fatih Gunawan,39,Kayla Chika Lathisya,0.15500318
+clean_train_temp\val\Reynaldi Cristian Simamora\image3 - Reynaldi Cristian Simamora (122140116).jpg,55,Reynaldi Cristian Simamora,13,Dimas Azi Rajab Aizar,0.10734482
+clean_train_temp\val\Rizky Abdillah\IMG-20251124-WA0025 - 127-rizky abdillah.jpg,56,Rizky Abdillah,19,Elsa Elisa Yohana Sianturi,0.100586034
+clean_train_temp\val\Royfran Roger Valentino\foto1 - Royfran Roger.jpg,57,Royfran Roger Valentino,25,Ferdana Al Hakim,0.1280725
+clean_train_temp\val\Rustian Afencius Marbun\WhatsApp Image 2025-11-24 at 15.14.19 - Rustian Afencius Marbun.jpeg,58,Rustian Afencius Marbun,19,Elsa Elisa Yohana Sianturi,0.16133997
+clean_train_temp\val\Shintya Ayu Wardani\IMG_6192 - Shintya Ayu Wardani.jpeg,59,Shintya Ayu Wardani,13,Dimas Azi Rajab Aizar,0.10946488
+clean_train_temp\val\Sikah Nubuahtul Ilmi\20251121_223630 - Sikah Nubuahtul Ilmi.jpg,60,Sikah Nubuahtul Ilmi,19,Elsa Elisa Yohana Sianturi,0.06320503
+clean_train_temp\val\William Chan\WhatsApp Image 2025-11-24 at 19.31.36_3c6ef106 - 130 - William.jpg,61,William Chan,19,Elsa Elisa Yohana Sianturi,0.10626206
+clean_train_temp\val\Yohanna Anzelika Sitepu\fe8b56db92cd9f6a846cee8e3fb9a8b1_0 - Yohanna Anzelika.jpeg,62,Yohanna Anzelika Sitepu,25,Ferdana Al Hakim,0.14225116
+clean_train_temp\val\Zakhi algifari\1763982339369 - ZAKHI GIFARI.jpg,63,Zakhi algifari,39,Kayla Chika Lathisya,0.07797212
+clean_train_temp\val\Zaky Ahmad Makarim\Zaky Ahmad Makarim_1.jpg,64,Zaky Ahmad Makarim,13,Dimas Azi Rajab Aizar,0.14627846
+clean_train_temp\val\Zefanya Danovanta Tarigan\Zefanya Danovanta Tarigan_4.jpg,65,Zefanya Danovanta Tarigan,17,Eden Wijaya,0.15934105
+clean_train_temp\val\Zidan Raihan\Zidan_3 - Zidan Raihan.JPG,66,Zidan Raihan,13,Dimas Azi Rajab Aizar,0.14752594
+clean_train_temp\val\hayyatul fajri\42502b96-06c3-4c2c-82ce-879436e436d1 - HAYYATUL FAJRI.jpeg,67,hayyatul fajri,13,Dimas Azi Rajab Aizar,0.1300812

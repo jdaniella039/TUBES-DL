@@ -1,0 +1,76 @@
+Accuracy: 0.5882352941176471
+
+                                 precision    recall  f1-score   support
+
+           Abraham Ganda Napitu     1.0000    1.0000    1.0000         1
+       Abu Bakar Siddiq Siregar     1.0000    1.0000    1.0000         1
+             Ahmad Faqih Hasani     0.0000    0.0000    0.0000         1
+                   Aldi Sanjaya     1.0000    1.0000    1.0000         1
+                        Alfajar     0.0000    0.0000    0.0000         1
+            Alief Fathur Rahman     0.5000    1.0000    0.6667         1
+ Arkan Hariz Chandrawinata Liem     1.0000    1.0000    1.0000         1
+               Bayu Ega Ferdana     0.5000    1.0000    0.6667         1
+          Bayu Prameswara Haris     0.0000    0.0000    0.0000         1
+           Bezalel Samuel Manik     1.0000    1.0000    1.0000         1
+           Bintang Fikri Fauzan     0.0000    0.0000    0.0000         1
+              Boy Sandro Sigiro     1.0000    1.0000    1.0000         1
+             Desty Ananta Purba     0.0000    0.0000    0.0000         1
+          Dimas Azi Rajab Aizar     0.0000    0.0000    0.0000         1
+              Dito Rifki Irawan     0.0000    0.0000    0.0000         1
+            Dwi Arthur Revangga     1.0000    1.0000    1.0000         1
+            Dyo Dwi Carol Bukit     1.0000    1.0000    1.0000         1
+                    Eden Wijaya     1.0000    1.0000    1.0000         1
+        Eichal Elphindo Ginting     1.0000    1.0000    1.0000         1
+     Elsa Elisa Yohana Sianturi     1.0000    1.0000    1.0000         1
+          Fajrul Ramadhana Aqsa     0.5000    1.0000    0.6667         1
+            Falih Dzakwan Zuhdi     1.0000    1.0000    1.0000         1
+          Fathan Andi Kartagama     1.0000    1.0000    1.0000         1
+               Fayyadh Abdillah     0.0000    0.0000    0.0000         1
+           Femmy Aprillia Putri     0.5000    1.0000    0.6667         1
+               Ferdana Al Hakim     1.0000    1.0000    1.0000         1
+                 Festus Mikhael     0.0000    0.0000    0.0000         1
+               Fiqri Aldiansyah     1.0000    1.0000    1.0000         1
+                 Freddy Harahap     1.0000    1.0000    1.0000         1
+      Gabriella Natalya Rumapea     1.0000    1.0000    1.0000         1
+                 Garland Wijaya     1.0000    1.0000    1.0000         1
+           Havidz Ridho Pratama     1.0000    1.0000    1.0000         1
+         Ichsan Kuntadi Baskara     1.0000    1.0000    1.0000         1
+            Ikhsannudin Lathief     1.0000    1.0000    1.0000         1
+ JP. Rafi Radiktya Arkan. R. AZ     1.0000    1.0000    1.0000         1
+  Joshia Fernandes Sectio Purba     0.0000    0.0000    0.0000         1
+            Joshua Palti Sinaga     1.0000    1.0000    1.0000         1
+                 Joy Daniella V     0.0000    0.0000    0.0000         1
+   Joyapul Hanscalvin Panjaitan     0.0000    0.0000    0.0000         1
+           Kayla Chika Lathisya     0.0000    0.0000    0.0000         1
+          Kenneth Austin Wijaya     0.0000    0.0000    0.0000         1
+              Kevin Naufal Dany     0.0000    0.0000    0.0000         1
+           Lois Novel E Gurning     0.0000    0.0000    0.0000         1
+            Machzaul harmansyah     1.0000    1.0000    1.0000         1
+       Martua Kevin A.M.H.Lubis     0.0000    0.0000    0.0000         1
+        Muhammad Fasya Atthoriq     0.0000    0.0000    0.0000         1
+         Muhammad Nelwan Fakhri     0.0000    0.0000    0.0000         1
+Muhammad Riveldo Hermawan Putra     0.5000    1.0000    0.6667         1
+            Muhammad Zada Rizki     1.0000    1.0000    1.0000         1
+             Nasya Aulia Efendi     0.0000    0.0000    0.0000         1
+           Raditya Erza Farandi     0.0000    0.0000    0.0000         1
+              Rahmat Aldi Nasda     1.0000    1.0000    1.0000         1
+              Randy Hendriyawan     1.0000    1.0000    1.0000         1
+           Rayhan Fadel Irwanto     0.5000    1.0000    0.6667         1
+           Rayhan Fatih Gunawan     1.0000    1.0000    1.0000         1
+     Reynaldi Cristian Simamora     1.0000    1.0000    1.0000         1
+                 Rizky Abdillah     1.0000    1.0000    1.0000         1
+        Royfran Roger Valentino     0.0000    0.0000    0.0000         1
+        Rustian Afencius Marbun     0.0000    0.0000    0.0000         1
+            Shintya Ayu Wardani     0.0000    0.0000    0.0000         1
+           Sikah Nubuahtul Ilmi     0.5000    1.0000    0.6667         1
+                   William Chan     1.0000    1.0000    1.0000         1
+        Yohanna Anzelika Sitepu     0.0000    0.0000    0.0000         1
+                 Zakhi algifari     0.3333    1.0000    0.5000         1
+             Zaky Ahmad Makarim     1.0000    1.0000    1.0000         1
+      Zefanya Danovanta Tarigan     0.0000    0.0000    0.0000         1
+                   Zidan Raihan     0.0000    0.0000    0.0000         1
+                 hayyatul fajri     0.0000    0.0000    0.0000         1
+
+                       accuracy                         0.5882        68
+                      macro avg     0.5270    0.5882    0.5466        68
+                   weighted avg     0.5270    0.5882    0.5466        68
