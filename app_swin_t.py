@@ -10,7 +10,7 @@ import numpy as np
 
 # ---------------- CONFIG (ubah kalau perlu) ----------------
 DEFAULT_PROJECT_ROOT = os.getcwd()  # biasanya: "C:/DATA JOY/Tugas/SEM 7/DL/TUBES DL"
-DEFAULT_CHECKPOINT = "https://drive.google.com/uc?export=download&id=1TMmw78DykVNPR0_dEh4069dJ5uXycUHJ"
+DEFAULT_CHECKPOINT = os.path.join(DEFAULT_PROJECT_ROOT, "swin_t_output", "best_swin_t.pth")
 DEFAULT_CLASSES_DIR = os.path.join(DEFAULT_PROJECT_ROOT, "clean_train_temp", "train")
 IMG_SIZE = 224
 
