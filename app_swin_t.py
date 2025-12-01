@@ -10,7 +10,7 @@ import numpy as np
 
 # ---------------- CONFIG (ubah kalau perlu) ----------------
 DEFAULT_PROJECT_ROOT = os.getcwd()  # biasanya: "C:/DATA JOY/Tugas/SEM 7/DL/TUBES DL"
-DEFAULT_CHECKPOINT = "https://drive.google.com/uc?export=download&id=1TMmw78DykVNPR0_dEh4069dJ5uXycUHJ"
+DEFAULT_CHECKPOINT = "C:/DATA JOY/Tugas/SEM 7/DL/TUBES DL/best_swin_t_fixed.pth"
 DEFAULT_CLASSES_DIR = os.path.join(DEFAULT_PROJECT_ROOT, "clean_train_temp", "train")
 IMG_SIZE = 224
 
@@ -30,32 +30,52 @@ def build_swin_t(num_classes, device):
     return model
 
 def load_checkpoint(model, ckpt_path, device):
+    # If file doesn't exist locally, raise early
     if not os.path.isfile(ckpt_path):
         raise FileNotFoundError(f"Checkpoint not found: {ckpt_path}")
-    ckpt = torch.load(ckpt_path, map_location=device)
+
+    # Try to load with weights_only=False explicitly (needed for PyTorch >= 2.6
+    # when checkpoint includes non-tensor objects). If torch version doesn't
+    # accept weights_only arg, fall back to plain torch.load.
+    try:
+        ckpt = torch.load(ckpt_path, map_location=device, weights_only=False)
+    except TypeError:
+        # older torch doesn't have weights_only parameter
+        ckpt = torch.load(ckpt_path, map_location=device)
+    except Exception as e:
+        # if weights_only default True caused failure, try again forcing False
+        # (this will do full unpickle; only do if file is trusted)
+        try:
+            ckpt = torch.load(ckpt_path, map_location=device, weights_only=False)
+        except Exception as e2:
+            # raise original informative error
+            raise RuntimeError(f"Failed to load checkpoint (tried weights_only False): {e2}") from e
+
     # ckpt might be:
-    # 1) direct state_dict
-    # 2) dict with 'model_state_dict' or 'state_dict'
+    # 1) direct state_dict (OrderedDict)
+    # 2) dict wrapper with keys like 'model_state_dict' or 'state_dict'
+    state = None
     if isinstance(ckpt, dict):
-        # common keys
         for k in ('model_state_dict', 'state_dict', 'model'):
             if k in ckpt:
                 state = ckpt[k]
                 break
-        else:
-            # maybe already a state_dict (but packed under other keys) - try heuristics:
-            state = None
-            # fallback: if first tensor-like, assume dict is state_dict
-            # check if values are tensors
-            sample_val = next(iter(ckpt.values()))
-            if hasattr(sample_val, 'shape') or torch.is_tensor(sample_val):
-                state = ckpt
+        if state is None:
+            # heuristic: if values look like tensors, treat ckpt as state_dict
+            try:
+                sample_val = next(iter(ckpt.values()))
+                if hasattr(sample_val, 'shape') or torch.is_tensor(sample_val):
+                    state = ckpt
+            except Exception:
+                state = None
     else:
-        state = ckpt
+        # ckpt is not dict -> maybe raw state_dict
+        if hasattr(ckpt, 'items'):
+            state = ckpt
 
     if state is None:
-        raise RuntimeError("Could not find a model state_dict in checkpoint.")
-    # try loading, allow mismatch (strict=False) so final head can be different
+        raise RuntimeError("Could not find a model state_dict in checkpoint after loading.")
+
     msg = model.load_state_dict(state, strict=False)
     return msg
 
