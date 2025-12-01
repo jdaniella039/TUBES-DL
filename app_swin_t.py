@@ -10,7 +10,7 @@ import numpy as np
 
 # ---------------- CONFIG (ubah kalau perlu) ----------------
 DEFAULT_PROJECT_ROOT = os.getcwd()  # biasanya: "C:/DATA JOY/Tugas/SEM 7/DL/TUBES DL"
-DEFAULT_CHECKPOINT = "C:/DATA JOY/Tugas/SEM 7/DL/TUBES DL/best_swin_t_fixed.pth"
+DEFAULT_CHECKPOINT = r"C:\DATA JOY\Tugas\SEM 7\DL\TUBES DL\best_swin_t_state_dict_only.pth"
 DEFAULT_CLASSES_DIR = os.path.join(DEFAULT_PROJECT_ROOT, "clean_train_temp", "train")
 IMG_SIZE = 224
 
