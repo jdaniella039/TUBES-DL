@@ -1,0 +1,11 @@
+streamlit>=1.18
+numpy
+Pillow
+matplotlib
+scikit-learn
+# for Keras/TensorFlow model
+tensorflow>=2.10
+# for PyTorch Swin-T (if you trained with PyTorch/timm)
+torch>=1.12
+torchvision
+timm
